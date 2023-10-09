@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Convertion</title>
+    
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="container main-container ">
+        <div class="row">
+            <div class="bengbeng">
+                <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" class="form-control" id="numberVal" aria-describedby="number" placeholder="Enter number">
+                </div>
+            </div>
+
+            <div class="beng">
+
+                <select class="select" aria-label="Default select example">
+                    <option selected disabled>Select Convertion</option>
+                    <option value="decToBin">Decimal to binary</option>
+                    <option value="decToOct">Decimal to octal</option>
+                    <option value="decToHex">Decimal to hex</option>
+                    <option value="binToDec">Binary to decimal</option>
+                    <option value="binToOct">Binary to octal</option>
+                    <option value="binToHex">Binary to hex</option>
+                    <option value="octToBin">Octal to binary</option>
+                    <option value="octToHex">Octal to hex</option>
+                    <option value="octToDec">Octal to decimal</option>
+                    <option value="hexToBin">Hex to binary</option>
+                    <option value="hexToDec">Hex to decimal</option>
+                    <option value="hexToOct">Hex to octal</option>
+                </select>
+            </div>
+
+            <div class="bagag">
+                <button type="submit" class="btn btn-primary convert-number ">Submit</button>
+            </div>
+
+            <div class="kimmy">
+                <p class="text-center converted-num"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
